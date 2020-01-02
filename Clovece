@@ -2,8 +2,6 @@
 #include <iostream>
 #include <time.h>
 
-//#include <thread>         // std::this_thread::sleep_for
-
 #define FIGURES_FOR_PLAYERS 4
 #define NUMBER_OF_PLAYERS 4
 #define HOUSE_SIZE 4
@@ -772,7 +770,5 @@ int main()
 	{
 		cout << i << ". miesto: hrac cislo: " << umiestnenie[i] << endl;
 	}
-
-
 
 }
